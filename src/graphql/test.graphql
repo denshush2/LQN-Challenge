@@ -1,0 +1,5 @@
+query {
+  allPersons(first: 4) {
+    name
+  }
+}
