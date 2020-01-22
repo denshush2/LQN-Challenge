@@ -1,0 +1,16 @@
+.card-section {
+  display: flex;
+  flex-direction: column;
+  .card-container {
+    margin-bottom: 10px;
+    // background-color: palegoldenrod;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .card-pagination {
+    align-self: center;
+  }
+}

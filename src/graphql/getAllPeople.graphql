@@ -1,0 +1,12 @@
+query GetAllPeople {
+  allPeople {
+    totalCount
+    people {
+      name
+      id
+      homeworld {
+        name
+      }
+    }
+  }
+}
